@@ -4,8 +4,8 @@ import time
 
 def download_data(target_account):
     L = instaloader.Instaloader()
-    username = "williampottsCS"
-    password = "Willi@m2004Uni"
+    username = ""
+    password = ""
     L.login(username, password)
 
     profile = instaloader.Profile.from_username(L.context, target_account)
